@@ -1,0 +1,4 @@
+Metric,Mean,95% CI low,95% CI high,Bootstrap iterations
+COnPOff,0.6212,0.5392,0.693,5000
+COnP,0.7562,0.6645,0.8346,5000
+COn,0.7911,0.7003,0.8682,5000

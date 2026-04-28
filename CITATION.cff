@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "CREPE-guided note-level melody estimation and independent key detection for monophonic humming"
+message: "If you use this repository, please cite the associated manuscript."
+type: software
+authors:
+  - family-names: Liu
+    given-names: Jieran
+  - family-names: Wang
+    given-names: Chaoxin
+  - family-names: Jiang
+    given-names: Hongyu
+year: 2026
+repository-code: "https://github.com/YIXINOWO/humming-melody-key-estimation"
+license: MIT

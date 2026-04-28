@@ -1,0 +1,4 @@
+metric,correct,total,accuracy,description
+Exact key,23,38,0.6052631578947368,"predicted key equals GT-inferred key, e.g. E minor == E minor"
+Tonic,25,38,0.6578947368421053,"same tonic pitch class, ignoring major/minor mode"
+Mode,30,38,0.7894736842105263,"same major/minor mode, ignoring tonic"

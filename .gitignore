@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+audio/
+gt_files_temp/
+*.wav
+*.mp3
+*.flac
+frame_onset_offset_oof.csv

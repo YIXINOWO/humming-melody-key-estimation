@@ -1,0 +1,144 @@
+{
+  "selection_protocol": {
+    "selection_split": "valid",
+    "selection_metric": "standard onset-only micro COn F1",
+    "candidate_min_seconds": -0.5,
+    "candidate_max_seconds": 0.5,
+    "candidate_step_seconds": 0.01,
+    "selected_seconds_added_to_predictions": -0.18,
+    "test_labels_used_for_selection": false,
+    "negative_onsets_after_shift": "clipped to zero; non-positive intervals discarded"
+  },
+  "valid": {
+    "raw": {
+      "recordings": 765,
+      "standard_trimmed_micro": {
+        "ref_notes": 21134,
+        "est_notes": 21358,
+        "COnPOff_P": 0.010394231669631987,
+        "COnPOff_R": 0.010504400492098042,
+        "COnPOff_F": 0.010449025698955098,
+        "COnP_P": 0.018821987077441708,
+        "COnP_R": 0.019021481972177533,
+        "COnP_F": 0.018921208698107875,
+        "COn_P": 0.15638168367824704,
+        "COn_R": 0.15803917857480837,
+        "COn_F": 0.15720606231761272,
+        "Split": 0.7054982492665847,
+        "Merged": 0.6999148291851992,
+        "Spurious": 0.004826346172045046
+      },
+      "standard_trimmed_macro": {
+        "COnPOff_F": 0.010254388178662656,
+        "COnP_F": 0.018597163821467158,
+        "COn_F": 0.15564839469042593,
+        "Split": 0.7047779705367767,
+        "Merged": 0.6971048746107422,
+        "Spurious": 0.004640038265525521
+      },
+      "official_humtrans_macro": {
+        "precision": 0.0006943341019807895,
+        "recall": 0.000713270690297141,
+        "f1": 0.0007031281253314269
+      }
+    },
+    "aligned": {
+      "recordings": 765,
+      "standard_trimmed_micro": {
+        "ref_notes": 21134,
+        "est_notes": 21314,
+        "COnPOff_P": 0.13643614525663883,
+        "COnPOff_R": 0.1375981830226176,
+        "COnPOff_F": 0.1370147003392386,
+        "COnP_P": 0.18269681899221168,
+        "COnP_R": 0.1842528626857197,
+        "COnP_F": 0.18347154165096116,
+        "COn_P": 0.38233086234399927,
+        "COn_R": 0.38558720545093217,
+        "COn_F": 0.38395212966453074,
+        "Split": 0.6129932809690546,
+        "Merged": 0.6176303586637646,
+        "Spurious": 0.004069272262704647
+      },
+      "standard_trimmed_macro": {
+        "COnPOff_F": 0.14222500295698123,
+        "COnP_F": 0.18961324319133538,
+        "COn_F": 0.3906174862798723,
+        "Split": 0.609961245347283,
+        "Merged": 0.6142007117328921,
+        "Spurious": 0.004004019069211613
+      },
+      "official_humtrans_macro": {
+        "precision": 0.0077059209764892295,
+        "recall": 0.0076236956232102375,
+        "f1": 0.00765784096747219
+      }
+    }
+  },
+  "test": {
+    "raw": {
+      "recordings": 769,
+      "standard_trimmed_micro": {
+        "ref_notes": 19955,
+        "est_notes": 20487,
+        "COnPOff_P": 0.008249133596915117,
+        "COnPOff_R": 0.008469055374592834,
+        "COnPOff_F": 0.008357647989713663,
+        "COnP_P": 0.02050080538878313,
+        "COnP_R": 0.021047356552242547,
+        "COnP_F": 0.020770486128282483,
+        "COn_P": 0.15873480743886367,
+        "COn_R": 0.16296667501879228,
+        "COn_F": 0.1608229068789872,
+        "Split": 0.6974191931846655,
+        "Merged": 0.6880982209972438,
+        "Spurious": 0.005362064645452268
+      },
+      "standard_trimmed_macro": {
+        "COnPOff_F": 0.00829253493363636,
+        "COnP_F": 0.020705845181093523,
+        "COn_F": 0.15916810810131843,
+        "Split": 0.6995573035356792,
+        "Merged": 0.6892092801984226,
+        "Spurious": 0.004951464546942584
+      },
+      "official_humtrans_macro": {
+        "precision": 0.0011675905216836898,
+        "recall": 0.001212593110157683,
+        "f1": 0.0011879376487622254
+      }
+    },
+    "aligned": {
+      "recordings": 769,
+      "standard_trimmed_micro": {
+        "ref_notes": 19955,
+        "est_notes": 20449,
+        "COnPOff_P": 0.14411462663210914,
+        "COnPOff_R": 0.14768228514156853,
+        "COnPOff_F": 0.14587664587664587,
+        "COnP_P": 0.1994229546677099,
+        "COnP_R": 0.20435980957153596,
+        "COnP_F": 0.20186120186120188,
+        "COn_P": 0.3944447161230378,
+        "COn_R": 0.4042094713104485,
+        "COn_F": 0.39926739926739924,
+        "Split": 0.5816086193936357,
+        "Merged": 0.5808068153345026,
+        "Spurious": 0.004109245803056878
+      },
+      "standard_trimmed_macro": {
+        "COnPOff_F": 0.14632154952814944,
+        "COnP_F": 0.20120090308815486,
+        "COn_F": 0.39866362670664,
+        "Split": 0.5839925820857964,
+        "Merged": 0.581721159309606,
+        "Spurious": 0.0037574393853555274
+      },
+      "official_humtrans_macro": {
+        "precision": 0.008028266544572182,
+        "recall": 0.007999834140282543,
+        "f1": 0.008007886911053823
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "analysis_type": "descriptive_template_labels_not_key_accuracy",
+  "recordings": 132,
+  "total_audio_seconds": 3721.2661875000003,
+  "confidence_threshold": 0.3,
+  "pitch_frontend": {
+    "implementation": "torchcrepe",
+    "model": "full",
+    "frame_hop_seconds": 0.01,
+    "crepe_median_filter_frames": 9,
+    "midi_median_filter_frames": 5
+  },
+  "mode_counts": {
+    "major": 54,
+    "minor": 78
+  },
+  "interpretation_guardrail": "Krumhansl-Schmuckler labels summarize the audio-derived pitch-class profiles. They are not key-prediction accuracy estimates because no independent key annotations are available.",
+  "seed": 2026,
+  "runtime": {
+    "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:38:16) [GCC 14.3.0]",
+    "platform": "Linux-5.15.0-187-generic-x86_64-with-glibc2.31",
+    "numpy": "2.2.6",
+    "pandas": "2.3.1",
+    "torch": "2.10.0+cu128",
+    "torchcrepe": "0.0.24",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4090 D"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "note_branch": [
+    "waveform",
+    "CREPE F0/confidence at 10-ms frames",
+    "44-dimensional frame features",
+    "separate onset/offset RandomForest classifiers",
+    "peak picking and onset-offset pairing",
+    "note onset, offset and MIDI pitch"
+  ],
+  "tonal_branch": [
+    "confidence-weighted 12-bin pitch-class profile",
+    "direct profile agreement and descriptive template labels"
+  ],
+  "independence_guardrail": "Tonal descriptors do not feed back into note transcription."
+}

@@ -1,0 +1,7 @@
+*.csv.gz binary
+*.npy binary
+*.npz binary
+*.png binary
+*.pdf binary
+*.tiff binary
+

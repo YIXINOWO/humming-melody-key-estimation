@@ -1,0 +1,96 @@
+project:
+  manuscript_id: JASM-D-26-00075R1
+  environment: jasm-revision
+  seed: 2026
+
+data:
+  audio_dir: audio
+  ground_truth_dir: gt_files_temp
+  historical_frame_table: final_results_for_paper/frame_onset_offset_oof.csv.gz
+  expected_recordings: 38
+  frame_hop_seconds: 0.01
+
+evaluation:
+  onset_tolerance_seconds: 0.05
+  pitch_tolerance_cents: 50.0
+  offset_ratio: 0.20
+  offset_min_tolerance_seconds: 0.05
+  outer_splits: 5
+  inner_splits: 4
+  model_selection_metric: mean_frame_average_precision
+  decoder_selection_metric: COnPOff_F_micro
+  report_aggregations:
+    - micro
+    - macro
+
+features:
+  columns:
+    - midi
+    - conf
+    - voiced
+    - dm
+    - abs_dm
+    - ddm
+    - local_pitch_std
+    - rms
+    - drms
+    - flux
+    - dflux
+    - voice_since_start
+    - voice_to_end
+    - voice_run_pos
+  lag_sources:
+    - midi
+    - conf
+    - abs_dm
+    - rms
+    - flux
+  lags:
+    - -5
+    - -3
+    - -1
+    - 1
+    - 3
+    - 5
+
+random_forest:
+  candidates:
+    - n_estimators: 250
+      max_depth: 14
+      min_samples_leaf: 8
+    - n_estimators: 350
+      max_depth: 16
+      min_samples_leaf: 6
+    - n_estimators: 500
+      max_depth: null
+      min_samples_leaf: 6
+  common:
+    class_weight: balanced_subsample
+    n_jobs: -1
+
+decoder_grid:
+  onset_threshold:
+    - 0.36
+    - 0.40
+    - 0.44
+  offset_threshold:
+    - 0.405
+    - 0.45
+    - 0.495
+  min_onset_separation_seconds:
+    - 0.162
+    - 0.18
+    - 0.198
+  min_note_duration_seconds:
+    - 0.09
+    - 0.10
+    - 0.11
+  crepe_confidence_threshold:
+    - 0.20
+    - 0.25
+    - 0.30
+
+outputs:
+  root: revision/results
+  data_audit: revision/results/data_audit
+  molina_nested_cv: revision/results/molina_nested_cv

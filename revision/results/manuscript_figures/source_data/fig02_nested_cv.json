@@ -1,0 +1,9 @@
+{
+  "outer_splits": 5,
+  "inner_splits": 4,
+  "grouping_unit": "recording",
+  "inner_model_selection": "mean frame average precision on inner OOF probabilities",
+  "inner_decoder_selection": "micro COnPOff on inner OOF probabilities",
+  "outer_test_use": "predict once after refitting on complete outer-training; never used for selection",
+  "final_aggregation": "concatenate five outer-test prediction streams before scoring"
+}

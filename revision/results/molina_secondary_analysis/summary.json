@@ -1,0 +1,40 @@
+{
+  "formal_note_level": {
+    "ref_notes": 2152,
+    "est_notes": 2121,
+    "COnPOff_P": 0.7006129184347006,
+    "COnPOff_R": 0.6905204460966543,
+    "COnPOff_F": 0.6955300725485608,
+    "COnP_P": 0.8486562942008486,
+    "COnP_R": 0.8364312267657993,
+    "COnP_F": 0.8424994149309619,
+    "COn_P": 0.8953323903818954,
+    "COn_R": 0.8824349442379182,
+    "COn_F": 0.8888368827521648,
+    "Split": 0.17425650557620817,
+    "Merged": 0.19609665427509293,
+    "Spurious": 0.02509293680297398
+  },
+  "formal_note_level_macro": {
+    "COnPOff_F": 0.6849572011023176,
+    "COnP_F": 0.8348288919081894,
+    "COn_F": 0.8852967872739174,
+    "Split": 0.17644692322764802,
+    "Merged": 0.20300804240402245,
+    "Spurious": 0.028399822367781304
+  },
+  "crepe_frontend_frame_level": {
+    "Voicing Recall": 0.9091353625609837,
+    "Voicing False Alarm": 0.3413593049149282,
+    "Raw Pitch Accuracy": 0.8821274801650675,
+    "Raw Chroma Accuracy": 0.8821530324130266,
+    "Overall Accuracy": 0.761018625650646
+  },
+  "aggregate_error_burden": {
+    "total_audio_seconds": 1154.8202040816327,
+    "split_per_5_seconds": 1.6279590479585206,
+    "merged_per_5_seconds": 1.831453928953336,
+    "spurious_per_5_seconds": 0.2338026292280853
+  },
+  "note": "Frame-level reference is rasterized from note GT. Estimated voicing uses CREPE confidence threshold 0.30, selected in all outer folds."
+}

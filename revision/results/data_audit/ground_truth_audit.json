@@ -1,0 +1,11 @@
+{
+  "recordings": 38,
+  "expected_recordings": 38,
+  "total_reference_notes": 2152,
+  "note_row_files": 34,
+  "value_vector_files": 4,
+  "missing_audio_files": 0,
+  "annotations_outside_audio": 0,
+  "files_with_adjacent_overlaps": 0,
+  "audit_passed": true
+}

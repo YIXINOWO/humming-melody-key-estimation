@@ -1,0 +1,5 @@
+Core conclusion: note-derived and audio-derived pitch-class profiles agree closely, whereas template labels are descriptive rather than independent accuracy labels.
+Archetype: quantitative grid.
+Source data: per_recording_agreement.csv and summary.json.
+Statistics: n=38 recordings; means and 95% recording-bootstrap intervals use 10,000 resamples.
+Exports: SVG, PDF, TIFF (600 dpi), PNG.

@@ -1,0 +1,63 @@
+{
+  "model": "ROSVOT official pretrained checkpoint",
+  "code_source": "https://github.com/RickyL-2000/ROSVOT",
+  "evaluation_corpus": "MTG-QBH/Molina corrected note annotations",
+  "recordings": 38,
+  "reference_notes": 2152,
+  "estimated_notes": 2397,
+  "inference": {
+    "word_boundaries": "official pretrained RWBD predictor",
+    "note_boundary_threshold": 0.85,
+    "threshold_source": "official inference CLI default",
+    "test_recordings_used_for_selection": false,
+    "time_shift_seconds": 0.0
+  },
+  "standard_molina_micro": {
+    "ref_notes": 2152,
+    "est_notes": 2397,
+    "COnPOff_P": 0.16228619107217354,
+    "COnPOff_R": 0.18076208178438663,
+    "COnPOff_F": 0.171026599252583,
+    "COnP_P": 0.21777221526908636,
+    "COnP_R": 0.2425650557620818,
+    "COnP_F": 0.22950098922840184,
+    "COn_P": 0.25156445556946183,
+    "COn_R": 0.2802044609665427,
+    "COn_F": 0.265113211694878,
+    "Split": 0.6175650557620818,
+    "Merged": 0.5580855018587361,
+    "Spurious": 0.00929368029739777
+  },
+  "standard_molina_macro": {
+    "COnPOff_F": 0.18746637028798027,
+    "COnP_F": 0.2491694718162163,
+    "COn_F": 0.2885828794113156,
+    "Split": 0.6116818722992918,
+    "Merged": 0.5472709692583602,
+    "Spurious": 0.007755460407787223
+  },
+  "inference_environment": {
+    "python": "3.9.25",
+    "torch": "2.1.1+cu118",
+    "torch_cuda": "11.8",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4090 D",
+    "librosa": "0.10.2.post1",
+    "pyworld": "0.3.4",
+    "pretty_midi": "0.2.10"
+  },
+  "archive_sha256": "b6055e81315b93415c9bd7fc48e10a28a3da1bea960cab7385483bd7443ba852",
+  "checkpoint_sha256": {
+    "checkpoints/rmvpe/model.pt": "19dc1809cf4cdb0a18db93441816bc327e14e5644b72eeaae5220560c6736fe2",
+    "checkpoints/rosvot/config.yaml": "2ad2cb756623418c471b7dc2f56175cce88b69a70b4a2c354fa1a78525aa54e2",
+    "checkpoints/rosvot/model.pt": "7501fb5f913d971c2f51bcb3063b930027b03206581820a4d2bfdc394c9c3fcb",
+    "checkpoints/rwbd/config.yaml": "3bb41f1d9eaa85aa1b3e5b6d94fff4ab4affb39719028ab69b4505974b9a1bc7",
+    "checkpoints/rwbd/model.pt": "0bc2d42a6d4b7a05436deb937e2deda1c12de49e5687cfda0bdf6a430120dcd2"
+  },
+  "artifacts": {
+    "manifest": "revision/results/rosvot_molina/manifest.json",
+    "raw_inference": "revision/results/rosvot_molina/inference",
+    "per_recording_metrics": "revision/results/rosvot_molina/per_recording_metrics.csv",
+    "predicted_notes": "revision/results/rosvot_molina/predicted_notes.csv.gz"
+  }
+}

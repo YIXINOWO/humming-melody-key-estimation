@@ -1,0 +1,62 @@
+{
+  "decoder": {
+    "onset_threshold": 0.36,
+    "offset_threshold": 0.405,
+    "min_onset_separation_seconds": 0.162,
+    "min_note_duration_seconds": 0.1,
+    "crepe_confidence_threshold": 0.3
+  },
+  "folds": 5,
+  "rows": [
+    {
+      "configuration": "F0 only",
+      "n_features": 6,
+      "COnPOff_F_micro": 0.3696465696465696,
+      "COnP_F_micro": 0.5571725571725573,
+      "COn_F_micro": 0.6024948024948026,
+      "COnPOff_F_macro": 0.34996829258922446,
+      "COnP_F_macro": 0.5386623444349725,
+      "COn_F_macro": 0.5876528265352757
+    },
+    {
+      "configuration": "+ RMS energy",
+      "n_features": 8,
+      "COnPOff_F_micro": 0.4951241134751774,
+      "COnP_F_micro": 0.6786347517730497,
+      "COn_F_micro": 0.7282801418439717,
+      "COnPOff_F_macro": 0.4705853747413613,
+      "COnP_F_macro": 0.6552872944458145,
+      "COn_F_macro": 0.7138186198171216
+    },
+    {
+      "configuration": "+ spectral flux",
+      "n_features": 10,
+      "COnPOff_F_micro": 0.5546033838716765,
+      "COnP_F_micro": 0.7431333772797187,
+      "COn_F_micro": 0.7862008349813229,
+      "COnPOff_F_macro": 0.5438011764928339,
+      "COnP_F_macro": 0.7341470099255054,
+      "COn_F_macro": 0.7830813006932873
+    },
+    {
+      "configuration": "+ voicing-run / pitch stability",
+      "n_features": 14,
+      "COnPOff_F_micro": 0.5770521136211139,
+      "COnP_F_micro": 0.750167747707448,
+      "COn_F_micro": 0.7913218519346902,
+      "COnPOff_F_macro": 0.5590104493013274,
+      "COnP_F_macro": 0.7406131545912611,
+      "COn_F_macro": 0.7826819688200691
+    },
+    {
+      "configuration": "+ temporal lags (full)",
+      "n_features": 44,
+      "COnPOff_F_micro": 0.703306939916162,
+      "COnP_F_micro": 0.847694457382394,
+      "COn_F_micro": 0.889147647880764,
+      "COnPOff_F_macro": 0.6950552832440451,
+      "COnP_F_macro": 0.8400625019397967,
+      "COn_F_macro": 0.8862342124378972
+    }
+  ]
+}

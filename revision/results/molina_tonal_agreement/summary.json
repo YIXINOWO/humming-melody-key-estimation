@@ -1,0 +1,53 @@
+{
+  "analysis_type": "tonal_representation_agreement_not_key_accuracy",
+  "recordings": 38,
+  "primary_confidence_threshold": 0.3,
+  "primary_macro_metrics": {
+    "profile_cosine_similarity": 0.9776555880546617,
+    "jensen_shannon_distance": 0.15712832610657249,
+    "dominant_pitch_class_match": 0.7894736842105263,
+    "descriptive_exact_label_agreement": 0.8421052631578947,
+    "descriptive_tonic_agreement": 0.868421052631579,
+    "descriptive_mode_agreement": 0.8421052631578947
+  },
+  "bootstrap": [
+    {
+      "metric": "profile_cosine_similarity",
+      "macro_mean": 0.9776555880546617,
+      "bootstrap_ci_low": 0.9706682157597534,
+      "bootstrap_ci_high": 0.9837634603333897,
+      "bootstrap_iterations": 10000
+    },
+    {
+      "metric": "jensen_shannon_distance",
+      "macro_mean": 0.15712832610657249,
+      "bootstrap_ci_low": 0.13954419237099952,
+      "bootstrap_ci_high": 0.17482324583493783,
+      "bootstrap_iterations": 10000
+    }
+  ],
+  "confidence_sensitivity": [
+    {
+      "confidence_threshold": 0.2,
+      "profile_cosine_similarity": 0.9773439421709469,
+      "jensen_shannon_distance": 0.15757284764313234,
+      "dominant_pitch_class_match": 0.7894736842105263,
+      "descriptive_exact_label_agreement": 0.8421052631578947
+    },
+    {
+      "confidence_threshold": 0.25,
+      "profile_cosine_similarity": 0.977487195650124,
+      "jensen_shannon_distance": 0.15734495655164982,
+      "dominant_pitch_class_match": 0.7894736842105263,
+      "descriptive_exact_label_agreement": 0.8421052631578947
+    },
+    {
+      "confidence_threshold": 0.3,
+      "profile_cosine_similarity": 0.9776555880546615,
+      "jensen_shannon_distance": 0.15712832610657249,
+      "dominant_pitch_class_match": 0.7894736842105263,
+      "descriptive_exact_label_agreement": 0.8421052631578947
+    }
+  ],
+  "interpretation_guardrail": "Template-derived label matches are descriptive agreement between two representations. They are not key-prediction accuracy because no independently annotated key labels are available."
+}

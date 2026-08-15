@@ -1,0 +1,5 @@
+# CUDA 12.8 wheels are installed from the official PyTorch index.
+# Install this file only after the core environment has been created.
+torch==2.10.0+cu128
+torchaudio==2.10.0+cu128
+torchcrepe==0.0.24

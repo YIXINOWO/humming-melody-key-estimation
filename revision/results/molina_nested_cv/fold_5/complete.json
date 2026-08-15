@@ -1,0 +1,62 @@
+{
+  "outer_fold": 5,
+  "model_candidate": 2,
+  "model_parameters": {
+    "class_weight": "balanced_subsample",
+    "n_jobs": -1,
+    "n_estimators": 500,
+    "max_depth": null,
+    "min_samples_leaf": 6
+  },
+  "decoder_parameters": {
+    "onset_threshold": 0.36,
+    "offset_threshold": 0.405,
+    "min_onset_separation_seconds": 0.162,
+    "min_note_duration_seconds": 0.1,
+    "crepe_confidence_threshold": 0.3
+  },
+  "inner_model_score": 0.44861439802762915,
+  "inner_decoder_conpoff": 0.7017028772753964,
+  "train_stems": [
+    "child1",
+    "child11",
+    "child12",
+    "child13",
+    "child14",
+    "child3",
+    "child4",
+    "child5",
+    "child6",
+    "child7",
+    "child8",
+    "q1",
+    "q102",
+    "q14",
+    "q16",
+    "q18",
+    "q2",
+    "q22",
+    "q24",
+    "q34",
+    "q56",
+    "q58",
+    "q61",
+    "q62",
+    "q73",
+    "q8",
+    "q80",
+    "q85",
+    "q87",
+    "q9",
+    "q96"
+  ],
+  "test_stems": [
+    "child10",
+    "child2",
+    "child9",
+    "q21",
+    "q59",
+    "q63",
+    "q86"
+  ]
+}

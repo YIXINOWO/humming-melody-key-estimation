@@ -1,0 +1,48 @@
+{
+  "evaluation": "HumTrans valid zero-shot",
+  "split": "valid",
+  "recordings": 765,
+  "training_corpus": "38 Molina recordings only",
+  "external_test_tuning": "none",
+  "micro_standard_molina_metrics": {
+    "ref_notes": 21134,
+    "est_notes": 21426,
+    "COnPOff_P": 0.010454587883879398,
+    "COnPOff_R": 0.01059903473076559,
+    "COnPOff_F": 0.010526315789473684,
+    "COnP_P": 0.01894894053953141,
+    "COnP_R": 0.019210750449512634,
+    "COnP_F": 0.019078947368421053,
+    "COn_P": 0.15616540651544852,
+    "COn_R": 0.15832308129081102,
+    "COn_F": 0.15723684210526315,
+    "Split": 0.70606605469859,
+    "Merged": 0.7004353174978707,
+    "Spurious": 0.007286836377401344
+  },
+  "macro_standard_molina_metrics": {
+    "COnPOff_F": 0.010330133239439106,
+    "COnP_F": 0.018743758264652088,
+    "COn_F": 0.15583371835560408,
+    "Split": 0.7053735873692656,
+    "Merged": 0.6976482038615317,
+    "Spurious": 0.007329056210209104
+  },
+  "decoder_parameters": {
+    "onset_threshold": 0.36,
+    "offset_threshold": 0.405,
+    "min_onset_separation_seconds": 0.162,
+    "min_note_duration_seconds": 0.1,
+    "crepe_confidence_threshold": 0.3
+  },
+  "feature_extractor": {
+    "crepe_variant": "full",
+    "sample_rate": 16000,
+    "frame_hop_seconds": 0.01,
+    "fmin_hz": 65.0,
+    "fmax_hz": 1000.0,
+    "crepe_median_filter": 9,
+    "pitch_median_filter": 5
+  },
+  "note": "This is a zero-shot cross-corpus test. HumTrans official baseline numbers use a separate onset-only octave-invariant metric and are not combined with this standard Molina table."
+}

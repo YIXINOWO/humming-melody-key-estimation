@@ -1,0 +1,13 @@
+JASM-D-26-00075R1 GITHUB RELEASE VERIFICATION
+Date: 2026-08-14
+
+- Public-package tests: 20 passed, 1 skipped.
+- The skipped test requires the non-redistributed MTG-QBH/Molina annotations.
+- YAML environment files, experiment configuration, and CITATION.cff parse successfully.
+- No raw audio, checkpoint, model-weight, joblib model, repository snapshot, or archive is included.
+- No personal absolute path, API credential pattern, reviewer correspondence, or internal tracker was detected.
+- No included file exceeds 45 MB; the largest file is the 17.5 MB compressed frame table.
+- Quantitative figure exports retain editable SVG/PDF text and 600-dpi PNG/TIFF outputs.
+- Fig. 1 and Fig. 2 use the exact author-approved raster redraws included under `revision/assets/author_final/`.
+- The final Fig. 1, Fig. 2, and revised Fig. 4 assets match the versions used in the verified manuscript builds.
+- The code licence is MIT; third-party resource rights remain with their upstream providers.

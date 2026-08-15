@@ -1,0 +1,502 @@
+{
+  "selection_metric": "validation standard onset-only micro COn F1",
+  "test_labels_used_for_selection": false,
+  "evaluations": [
+    {
+      "model": "VOCANO",
+      "split": "valid",
+      "condition": "raw",
+      "selected_validation_shift_seconds": -0.2,
+      "recordings": 765,
+      "standard_micro": {
+        "ref_notes": 21134,
+        "est_notes": 20382,
+        "COnPOff_P": 0.01280541654400942,
+        "COnPOff_R": 0.012349768146115265,
+        "COnPOff_F": 0.0125734656517969,
+        "COnP_P": 0.020606417427141595,
+        "COnP_R": 0.019873190120185482,
+        "COnP_F": 0.020233163117834088,
+        "COn_P": 0.1587675399862624,
+        "COn_R": 0.15311819816409578,
+        "COn_F": 0.1558917044031217,
+        "Split": 0.6789060282010031,
+        "Merged": 0.6983533642471846,
+        "Spurious": 0.0030756127566953723
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.012199303513461587,
+        "COnP_F": 0.019755074971304014,
+        "COn_F": 0.1557149883151474,
+        "Split": 0.6775340046354694,
+        "Merged": 0.6951435653249982,
+        "Spurious": 0.0029898257327189916
+      }
+    },
+    {
+      "model": "VOCANO",
+      "split": "valid",
+      "condition": "aligned",
+      "selected_validation_shift_seconds": -0.2,
+      "recordings": 765,
+      "standard_micro": {
+        "ref_notes": 21134,
+        "est_notes": 20336,
+        "COnPOff_P": 0.13739181746656176,
+        "COnPOff_R": 0.13220403141856724,
+        "COnPOff_F": 0.13474801061007957,
+        "COnP_P": 0.19305664830841857,
+        "COnP_R": 0.1857670105044005,
+        "COnP_F": 0.18934169278996862,
+        "COn_P": 0.3894571203776554,
+        "COn_R": 0.37475158512349765,
+        "COn_F": 0.3819628647214854,
+        "Split": 0.6071732752910003,
+        "Merged": 0.6279454906785275,
+        "Spurious": 0.002507807324690073
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.1367073881450745,
+        "COnP_F": 0.19202917090416755,
+        "COn_F": 0.3838442552107165,
+        "Split": 0.6073281297099535,
+        "Merged": 0.6262778933648864,
+        "Spurious": 0.0024631511904986882
+      }
+    },
+    {
+      "model": "VOCANO",
+      "split": "test",
+      "condition": "raw",
+      "selected_validation_shift_seconds": -0.2,
+      "recordings": 769,
+      "standard_micro": {
+        "ref_notes": 19955,
+        "est_notes": 19638,
+        "COnPOff_P": 0.009064059476525105,
+        "COnPOff_R": 0.008920070157855174,
+        "COnPOff_F": 0.008991488394413154,
+        "COnP_P": 0.01863733577757409,
+        "COnP_R": 0.018341267852668503,
+        "COnP_F": 0.018488116586265247,
+        "COn_P": 0.15913025766371322,
+        "COn_R": 0.1566023552994237,
+        "COn_F": 0.15785618669966914,
+        "Split": 0.6761212728639439,
+        "Merged": 0.6862941618641945,
+        "Spurious": 0.003958907541969431
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.008793424438745956,
+        "COnP_F": 0.018322301659603735,
+        "COn_F": 0.15568035425047164,
+        "Split": 0.6763168144343161,
+        "Merged": 0.6860743680746203,
+        "Spurious": 0.0037740741254597135
+      }
+    },
+    {
+      "model": "VOCANO",
+      "split": "test",
+      "condition": "aligned",
+      "selected_validation_shift_seconds": -0.2,
+      "recordings": 769,
+      "standard_micro": {
+        "ref_notes": 19955,
+        "est_notes": 19601,
+        "COnPOff_P": 0.13713586041528494,
+        "COnPOff_R": 0.1347030819343523,
+        "COnPOff_F": 0.13590858529679442,
+        "COnP_P": 0.2108565889495434,
+        "COnP_R": 0.2071160110248058,
+        "COnP_F": 0.20896956213975126,
+        "COn_P": 0.4064588541400949,
+        "COn_R": 0.3992483086945628,
+        "COn_F": 0.40282131661442006,
+        "Split": 0.5944875970934603,
+        "Merged": 0.6075670258080682,
+        "Spurious": 0.0030568779754447505
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.13370341040061348,
+        "COnP_F": 0.204932343591321,
+        "COn_F": 0.4005183548196456,
+        "Split": 0.5950408113180251,
+        "Merged": 0.6072214988392404,
+        "Spurious": 0.0028138843671218897
+      }
+    },
+    {
+      "model": "SheetSage",
+      "split": "valid",
+      "condition": "raw",
+      "selected_validation_shift_seconds": -0.2,
+      "recordings": 765,
+      "standard_micro": {
+        "ref_notes": 21134,
+        "est_notes": 20382,
+        "COnPOff_P": 0.009861642625846335,
+        "COnPOff_R": 0.009510740986088766,
+        "COnPOff_F": 0.009683013777820599,
+        "COnP_P": 0.023403002649396525,
+        "COnP_R": 0.022570265922210654,
+        "COnP_F": 0.02297909239811157,
+        "COn_P": 0.1587675399862624,
+        "COn_R": 0.15311819816409578,
+        "COn_F": 0.1558917044031217,
+        "Split": 0.6789060282010031,
+        "Merged": 0.6983533642471846,
+        "Spurious": 0.0030756127566953723
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.009540322935825603,
+        "COnP_F": 0.02295994520148372,
+        "COn_F": 0.1557149883151474,
+        "Split": 0.6775340046354694,
+        "Merged": 0.6951435653249982,
+        "Spurious": 0.0029898257327189916
+      }
+    },
+    {
+      "model": "SheetSage",
+      "split": "valid",
+      "condition": "aligned",
+      "selected_validation_shift_seconds": -0.2,
+      "recordings": 765,
+      "standard_micro": {
+        "ref_notes": 21134,
+        "est_notes": 20336,
+        "COnPOff_P": 0.03697875688434304,
+        "COnPOff_R": 0.03558247373899877,
+        "COnPOff_F": 0.0362671810947673,
+        "COnP_P": 0.06412273800157356,
+        "COnP_R": 0.06170152361124255,
+        "COnP_F": 0.0628888353026284,
+        "COn_P": 0.3894571203776554,
+        "COn_R": 0.37475158512349765,
+        "COn_F": 0.3819628647214854,
+        "Split": 0.6071732752910003,
+        "Merged": 0.6279454906785275,
+        "Spurious": 0.002507807324690073
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.036524053783240584,
+        "COnP_F": 0.06278120023868501,
+        "COn_F": 0.3838442552107165,
+        "Split": 0.6073281297099535,
+        "Merged": 0.6262778933648864,
+        "Spurious": 0.0024631511904986882
+      }
+    },
+    {
+      "model": "SheetSage",
+      "split": "test",
+      "condition": "raw",
+      "selected_validation_shift_seconds": -0.2,
+      "recordings": 769,
+      "standard_micro": {
+        "ref_notes": 19955,
+        "est_notes": 19638,
+        "COnPOff_P": 0.009675119665953764,
+        "COnPOff_R": 0.00952142320220496,
+        "COnPOff_F": 0.009597656151339883,
+        "COnP_P": 0.026632039922599042,
+        "COnP_R": 0.026208970182911552,
+        "COnP_F": 0.026418811406056626,
+        "COn_P": 0.15913025766371322,
+        "COn_R": 0.1566023552994237,
+        "COn_F": 0.15785618669966914,
+        "Split": 0.6761212728639439,
+        "Merged": 0.6862941618641945,
+        "Spurious": 0.003958907541969431
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.009703285378203594,
+        "COnP_F": 0.026450253199837223,
+        "COn_F": 0.15568035425047164,
+        "Split": 0.6763168144343161,
+        "Merged": 0.6860743680746203,
+        "Spurious": 0.0037740741254597135
+      }
+    },
+    {
+      "model": "SheetSage",
+      "split": "test",
+      "condition": "aligned",
+      "selected_validation_shift_seconds": -0.2,
+      "recordings": 769,
+      "standard_micro": {
+        "ref_notes": 19955,
+        "est_notes": 19601,
+        "COnPOff_P": 0.03984490587214938,
+        "COnPOff_R": 0.03913806063643197,
+        "COnPOff_F": 0.039488320355951054,
+        "COnP_P": 0.0733125860925463,
+        "COnP_R": 0.072012027060887,
+        "COnP_F": 0.07265648700576398,
+        "COn_P": 0.4064588541400949,
+        "COn_R": 0.3992483086945628,
+        "COn_F": 0.40282131661442006,
+        "Split": 0.5944875970934603,
+        "Merged": 0.6075670258080682,
+        "Spurious": 0.0030568779754447505
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.0397695737277747,
+        "COnP_F": 0.07365483070531774,
+        "COn_F": 0.4005183548196456,
+        "Split": 0.5950408113180251,
+        "Merged": 0.6072214988392404,
+        "Spurious": 0.0028138843671218897
+      }
+    },
+    {
+      "model": "MIR-ST500",
+      "split": "valid",
+      "condition": "raw",
+      "selected_validation_shift_seconds": -0.15,
+      "recordings": 765,
+      "standard_micro": {
+        "ref_notes": 21134,
+        "est_notes": 21000,
+        "COnPOff_P": 0.03166666666666667,
+        "COnPOff_R": 0.03146588435696035,
+        "COnPOff_F": 0.0315659562348697,
+        "COnP_P": 0.046857142857142854,
+        "COnP_R": 0.04656004542443456,
+        "COnP_F": 0.046708121706935016,
+        "COn_P": 0.17542857142857143,
+        "COn_R": 0.17431626762562696,
+        "COn_F": 0.17487065078084207,
+        "Split": 0.7047411753572442,
+        "Merged": 0.7006719030945396,
+        "Spurious": 0.0028863442793602727
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.030193661230724506,
+        "COnP_F": 0.04474828200760774,
+        "COn_F": 0.17260999957424508,
+        "Split": 0.7043000538927527,
+        "Merged": 0.6993204575490742,
+        "Spurious": 0.002729580130707679
+      }
+    },
+    {
+      "model": "MIR-ST500",
+      "split": "valid",
+      "condition": "aligned",
+      "selected_validation_shift_seconds": -0.15,
+      "recordings": 765,
+      "standard_micro": {
+        "ref_notes": 21134,
+        "est_notes": 20973,
+        "COnPOff_P": 0.14952558050827255,
+        "COnPOff_R": 0.14838648623071826,
+        "COnPOff_F": 0.1489538556534543,
+        "COnP_P": 0.19086444476231346,
+        "COnP_R": 0.18941042869310115,
+        "COnP_F": 0.190134656945401,
+        "COn_P": 0.38315930005244836,
+        "COn_R": 0.3802403709662156,
+        "COn_F": 0.38169425511197663,
+        "Split": 0.6857196933850667,
+        "Merged": 0.6895523800511025,
+        "Spurious": 0.002271221728021198
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.1518821784485713,
+        "COnP_F": 0.19280981186750965,
+        "COn_F": 0.38282877514541536,
+        "Split": 0.6856940340119204,
+        "Merged": 0.6886374619958309,
+        "Spurious": 0.002181524347514821
+      }
+    },
+    {
+      "model": "MIR-ST500",
+      "split": "test",
+      "condition": "raw",
+      "selected_validation_shift_seconds": -0.15,
+      "recordings": 769,
+      "standard_micro": {
+        "ref_notes": 19955,
+        "est_notes": 20132,
+        "COnPOff_P": 0.01937214385058613,
+        "COnPOff_R": 0.019543973941368076,
+        "COnPOff_F": 0.019457679546985303,
+        "COnP_P": 0.03611166302404133,
+        "COnP_R": 0.03643197193685793,
+        "COnP_F": 0.03627111033502133,
+        "COn_P": 0.1593483012120008,
+        "COn_R": 0.1607617138561764,
+        "COn_F": 0.16005188714545862,
+        "Split": 0.6998747181157604,
+        "Merged": 0.6974693059383613,
+        "Spurious": 0.0036582310197945376
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.01951828679220199,
+        "COnP_F": 0.035434910680734955,
+        "COn_F": 0.160009563614151,
+        "Split": 0.6999688287169843,
+        "Merged": 0.6967772023662007,
+        "Spurious": 0.003578270239533364
+      }
+    },
+    {
+      "model": "MIR-ST500",
+      "split": "test",
+      "condition": "aligned",
+      "selected_validation_shift_seconds": -0.15,
+      "recordings": 769,
+      "standard_micro": {
+        "ref_notes": 19955,
+        "est_notes": 20102,
+        "COnPOff_P": 0.15978509601034724,
+        "COnPOff_R": 0.16096216487095966,
+        "COnPOff_F": 0.16037147065431762,
+        "COnP_P": 0.208287732563924,
+        "COnP_R": 0.20982209972437985,
+        "COnP_F": 0.2090521007564221,
+        "COn_P": 0.3920505422346035,
+        "COn_R": 0.39493861187672263,
+        "COn_F": 0.3934892777791647,
+        "Split": 0.6678025557504385,
+        "Merged": 0.6689050363317465,
+        "Spurious": 0.0032072162365321976
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.15744742294018924,
+        "COnP_F": 0.20484631556360422,
+        "COn_F": 0.3882146036916843,
+        "Split": 0.6678187429950407,
+        "Merged": 0.6676239938805081,
+        "Spurious": 0.0030344291341556032
+      }
+    },
+    {
+      "model": "JDC-STP",
+      "split": "valid",
+      "condition": "raw",
+      "selected_validation_shift_seconds": -0.17,
+      "recordings": 765,
+      "standard_micro": {
+        "ref_notes": 21134,
+        "est_notes": 21637,
+        "COnPOff_P": 0.03170494985441605,
+        "COnPOff_R": 0.03245954386296962,
+        "COnPOff_F": 0.03207780973089242,
+        "COnP_P": 0.046633082220270836,
+        "COnP_R": 0.04774297340777894,
+        "COnP_F": 0.04718150148465083,
+        "COn_P": 0.18699450016175995,
+        "COn_R": 0.19144506482445348,
+        "COn_F": 0.18919361249444716,
+        "Split": 0.6737484621936216,
+        "Merged": 0.6595533263934892,
+        "Spurious": 0.003690735308034447
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.03155329240642542,
+        "COnP_F": 0.04643775267390693,
+        "COn_F": 0.18704935105521114,
+        "Split": 0.6794332898396216,
+        "Merged": 0.6618345756893554,
+        "Spurious": 0.003504556373364039
+      }
+    },
+    {
+      "model": "JDC-STP",
+      "split": "valid",
+      "condition": "aligned",
+      "selected_validation_shift_seconds": -0.17,
+      "recordings": 765,
+      "standard_micro": {
+        "ref_notes": 21134,
+        "est_notes": 21622,
+        "COnPOff_P": 0.12126537785588752,
+        "COnPOff_R": 0.12406548689315794,
+        "COnPOff_F": 0.1226494527083918,
+        "COnP_P": 0.17135325131810195,
+        "COnP_R": 0.17530992713163623,
+        "COnP_F": 0.17330900926185802,
+        "COn_P": 0.33382665803348444,
+        "COn_R": 0.34153496735118766,
+        "COn_F": 0.3376368229020488,
+        "Split": 0.6683069934702376,
+        "Merged": 0.6611147913315037,
+        "Spurious": 0.0033121983533642473
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.12768534716541047,
+        "COnP_F": 0.17928870961092677,
+        "COn_F": 0.3409224074918668,
+        "Split": 0.6711015243280165,
+        "Merged": 0.6616165557441496,
+        "Spurious": 0.0034725481200669215
+      }
+    },
+    {
+      "model": "JDC-STP",
+      "split": "test",
+      "condition": "raw",
+      "selected_validation_shift_seconds": -0.17,
+      "recordings": 769,
+      "standard_micro": {
+        "ref_notes": 19955,
+        "est_notes": 19811,
+        "COnPOff_P": 0.019282216950179194,
+        "COnPOff_R": 0.019143071911801552,
+        "COnPOff_F": 0.019212392496102196,
+        "COnP_P": 0.03387007218212104,
+        "COnP_R": 0.03362565772989226,
+        "COnP_F": 0.033747422421163804,
+        "COn_P": 0.16914845287971328,
+        "COn_R": 0.16792783763467803,
+        "COn_F": 0.1685359352210431,
+        "Split": 0.6330744174392383,
+        "Merged": 0.6249561513405162,
+        "Spurious": 0.00430969681784014
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.0191490360841176,
+        "COnP_F": 0.03378393180449807,
+        "COn_F": 0.16746512890189885,
+        "Split": 0.6399070569573055,
+        "Merged": 0.6297474196025618,
+        "Spurious": 0.0038861285716807886
+      }
+    },
+    {
+      "model": "JDC-STP",
+      "split": "test",
+      "condition": "aligned",
+      "selected_validation_shift_seconds": -0.17,
+      "recordings": 769,
+      "standard_micro": {
+        "ref_notes": 19955,
+        "est_notes": 19791,
+        "COnPOff_P": 0.11318275984033146,
+        "COnPOff_R": 0.11225256827862691,
+        "COnPOff_F": 0.11271574498062698,
+        "COnP_P": 0.17573644585922893,
+        "COnP_R": 0.1742921573540466,
+        "COnP_F": 0.17501132189402704,
+        "COn_P": 0.32782577939467433,
+        "COn_R": 0.3251315459784515,
+        "COn_F": 0.3264731042117446,
+        "Split": 0.6227010774242044,
+        "Merged": 0.6206965672763718,
+        "Spurious": 0.004911049862189928
+      },
+      "standard_macro": {
+        "COnPOff_F": 0.11435672063289118,
+        "COnP_F": 0.17670298617227945,
+        "COn_F": 0.3258113094851791,
+        "Split": 0.6303095378916332,
+        "Merged": 0.6248172789119173,
+        "Spurious": 0.0044482563709845645
+      }
+    }
+  ]
+}

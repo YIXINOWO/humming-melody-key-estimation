@@ -1,0 +1,3 @@
+metric,macro_mean,bootstrap_ci_low,bootstrap_ci_high,bootstrap_iterations
+profile_cosine_similarity,0.9776555880546617,0.9706682157597534,0.9837634603333897,10000
+jensen_shannon_distance,0.15712832610657249,0.13954419237099952,0.17482324583493783,10000

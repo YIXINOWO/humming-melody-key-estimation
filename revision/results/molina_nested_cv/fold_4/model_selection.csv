@@ -1,0 +1,4 @@
+model_candidate,class_weight,n_jobs,n_estimators,max_depth,min_samples_leaf,onset_average_precision,offset_average_precision,mean_frame_average_precision
+2,balanced_subsample,-1,500,,6,0.5410364908450329,0.326858244938208,0.4339473678916205
+1,balanced_subsample,-1,350,16.0,6,0.5273114971792131,0.3027526712297683,0.41503208420449067
+0,balanced_subsample,-1,250,14.0,8,0.5232600456971943,0.30310965290773517,0.41318484930246474

@@ -1,0 +1,84 @@
+{
+  "operational_definition": {
+    "phrase_boundary": "reference-sequence start/end and both sides of an inter-note gap >= 0.30 s",
+    "near_boundary": "event time within 0.15 s of a phrase boundary",
+    "split_event": "onset of each excess prediction overlapping one reference note",
+    "merged_event": "each swallowed reference onset inside one estimated note",
+    "spurious_event": "onset of an estimate with no temporal reference overlap"
+  },
+  "primary_results": [
+    {
+      "gap_threshold_seconds": 0.3,
+      "boundary_window_seconds": 0.15,
+      "error_type": "split",
+      "events": 397,
+      "near_boundary_events": 16,
+      "observed_near_fraction": 0.04030226700251889,
+      "time_coverage_expected_count": 57.95746631175222,
+      "time_coverage_expected_fraction": 0.14598858013035823,
+      "enrichment_ratio": 0.2760645179679918,
+      "circular_shift_p_value_one_sided": 1.0,
+      "permutations": 10000,
+      "phrase_boundaries": 596.0,
+      "boundary_window_coverage": 0.14662437776165474
+    },
+    {
+      "gap_threshold_seconds": 0.3,
+      "boundary_window_seconds": 0.15,
+      "error_type": "merged",
+      "events": 464,
+      "near_boundary_events": 2,
+      "observed_near_fraction": 0.004310344827586207,
+      "time_coverage_expected_count": 66.85901393680562,
+      "time_coverage_expected_fraction": 0.14409270245001213,
+      "enrichment_ratio": 0.029913692742916866,
+      "circular_shift_p_value_one_sided": 1.0,
+      "permutations": 10000,
+      "phrase_boundaries": 596.0,
+      "boundary_window_coverage": 0.14662437776165474
+    },
+    {
+      "gap_threshold_seconds": 0.3,
+      "boundary_window_seconds": 0.15,
+      "error_type": "spurious",
+      "events": 54,
+      "near_boundary_events": 4,
+      "observed_near_fraction": 0.07407407407407407,
+      "time_coverage_expected_count": 8.088370351750218,
+      "time_coverage_expected_fraction": 0.14978463614352255,
+      "enrichment_ratio": 0.49453719674624597,
+      "circular_shift_p_value_one_sided": 0.9708029197080292,
+      "permutations": 10000,
+      "phrase_boundaries": 596.0,
+      "boundary_window_coverage": 0.14662437776165474
+    },
+    {
+      "gap_threshold_seconds": 0.3,
+      "boundary_window_seconds": 0.15,
+      "error_type": "all",
+      "events": 915,
+      "near_boundary_events": 22,
+      "observed_near_fraction": 0.024043715846994537,
+      "time_coverage_expected_count": 132.90485060030807,
+      "time_coverage_expected_fraction": 0.14525120284186674,
+      "enrichment_ratio": 0.16553195688968333,
+      "circular_shift_p_value_one_sided": 1.0,
+      "permutations": 10000,
+      "phrase_boundaries": 596.0,
+      "boundary_window_coverage": 0.14662437776165474
+    }
+  ],
+  "null_model": "10,000 within-recording circular shifts of each error event pattern; one-sided p tests enrichment near fixed phrase boundaries",
+  "sensitivity_grid": {
+    "gap_threshold_seconds": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "boundary_window_seconds": [
+      0.1,
+      0.15,
+      0.2
+    ]
+  }
+}
